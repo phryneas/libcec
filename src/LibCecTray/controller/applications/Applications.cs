@@ -104,6 +104,8 @@ namespace LibCECTray.controller.applications
         defaultValues.Add(wmcController.ProcessName, wmcController);
         XBMCController xbmcController = new XBMCController(_controller);
         defaultValues.Add(xbmcController.ProcessName, xbmcController);
+        AnyForegroundApplication any = new AnyForegroundApplication(_controller);
+        defaultValues.Add(any.ProcessName, any);
 
         return defaultValues;
       }
