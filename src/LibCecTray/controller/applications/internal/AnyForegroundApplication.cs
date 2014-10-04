@@ -11,8 +11,8 @@ namespace LibCECTray.controller.applications.@internal
         public AnyForegroundApplication(CECController controller) :
       base(controller,
            "AnyForegroundApplication",
-           "",
-           "",
+           "any",
+           "any",
            Environment.SystemDirectory)
     {
       IsInternal = true;
