@@ -145,7 +145,7 @@ namespace LibCECTray.controller.applications.@internal
                 case CecUserControlCode.PausePlayFunction:
                 case CecUserControlCode.PauseRecord:
                 case CecUserControlCode.PauseRecordFunction:
-                    keyInput.AddKey(WindowsAPI.VirtualKeyCode.VK_MEDIA_PLAY_PAUSE);
+                    keyInput.AddKey(WindowsAPI.VirtualKeyCode.VK_SPACE);
                     break;
                 case CecUserControlCode.Stop:
                 case CecUserControlCode.StopFunction:
